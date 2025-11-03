@@ -10,15 +10,15 @@ This project delivers clear visual storytelling with insights on demographics, t
 ## 📂 Repository Contents
 
 - `dashboard.pbix` – Power BI dashboard file  
-- `domain-knowledge.pdf` – Detailed document explaining dataset structure, KPIs, and ad metrics  
-- `data/` – Folder containing Meta Ads dataset  
-- `images/` – Folder containing screenshots and visuals for the dashboard  
+- `Domain Knowledge.pdf` – Detailed document explaining dataset structure, KPIs, and ad metrics  
+- `ad_events.csv, ads.csv,campaigns.csv, users.csv /` – Folder containing Meta Ads dataset  
+- `Meta PowerBI Project.pdf/` – Folder containing screenshots and visuals for the dashboard  
 
 ---
 
 ## 📄 Domain Knowledge Document
 
-The domain knowledge document contains detailed explanations of the dataset, including:
+The Domain Knowledge Document contains detailed explanations of the dataset, including:
 
 - **Dataset Overview:** Meta Ads Performance Data with campaigns, ads, user demographics, and event-level interactions  
 - **KPIs & Metrics:** Impressions, Clicks, Purchases, CTR, CPC, CPM, ROAS, Engagement Rate, Conversion Rate, Audience insights  
@@ -29,7 +29,7 @@ The domain knowledge document contains detailed explanations of the dataset, inc
   - `users`: demographics and interests  
 - **Table Relationships:** Star schema with `ad_events` as fact table and `ads`, `campaigns`, `users` as dimension tables  
 
-> See [`domain-knowledge.pdf`](domain-knowledge.pdf) for full details.
+> See [`Domain Knowledge.pdf`](Domain Knowledge.pdf) for full details.
 
 ---
 
@@ -82,7 +82,7 @@ The domain knowledge document contains detailed explanations of the dataset, inc
 
 ## 🔗 Links & References
 
-- [Domain Knowledge Document](domain-knowledge.pdf)  
+- [Domain Knowledge Document](Domain Knowledge.pdf)  
 - [LinkedIn](https://www.linkedin.com/in/ferry-ferry-bb343116a)  
 - [Website]()  
 
