@@ -2,38 +2,41 @@
 
 ![Meta Ad Performance Dashboard](https://i.pinimg.com/1200x/b0/62/46/b06246567ed168a6bc494767f4b304bf.jpg)
 
-A real-time **Power BI dashboard** analyzing **Meta Ads performance** using campaign, user, and engagement data. Built to assess ad efficiency, targeting strategy, and ROI using KPIs like **CTR, Engagement Rate, Conversion Rate, and Purchase Rate**.  
+A real-time **Power BI dashboard** analyzing **Meta Ads performance** using campaign, user, and engagement data.  
+Built to assess ad efficiency, targeting strategy, and ROI using KPIs like **CTR, Engagement Rate, Conversion Rate, and Purchase Rate**.  
 This project delivers clear visual storytelling with insights on demographics, timing, geography, and ad format performance.
 
 ---
 
 ## 📂 Repository Contents
 
-- `dashboard.pbix` – Power BI dashboard file  
-- `Domain Knowledge.pdf` – Detailed document explaining dataset structure, KPIs, and ad metrics  
-- `ad_events.csv, ads.csv,campaigns.csv, users.csv /` – Folder containing Meta Ads dataset  
-- `Meta PowerBI Project.pdf/` – Folder containing screenshots and visuals for the dashboard  
+- `Meta Project.pbix` – Power BI dashboard file  
+- `Domain Knowledge.pdf` – Detailed explanation of dataset structure, KPIs, and ad metrics  
+- `Meta PoweBl Project.pdf` – Documentation of dashboard insights and analysis  
+- `ad_events.csv`, `ads.csv`, `campaigns.csv`, `users.csv` – Dataset files used in the dashboard  
+- `LICENSE` – License for the project  
+- `README.md` – This file  
 
 ---
 
-## 📄 Domain Knowledge Document
+## 📄 Domain Knowledge
 
-The Domain Knowledge Document contains detailed explanations of the dataset, including:
+The **Domain Knowledge.pdf** file explains:  
 
-- **Dataset Overview:** Meta Ads Performance Data with campaigns, ads, user demographics, and event-level interactions  
+- **Dataset Overview:** Meta Ads Performance Data covering campaigns, ads, user demographics, and ad interaction events  
 - **KPIs & Metrics:** Impressions, Clicks, Purchases, CTR, CPC, CPM, ROAS, Engagement Rate, Conversion Rate, Audience insights  
 - **Tables & Fields:**  
-  - `ad_events` (fact table): captures all user interactions with ads  
-  - `ads`: ad creative metadata and targeting info  
-  - `campaigns`: budget, duration, and strategy  
-  - `users`: demographics and interests  
+  - `ad_events` (fact table) – all user interactions with ads  
+  - `ads` – ad creative metadata and targeting info  
+  - `campaigns` – budget, duration, and strategy  
+  - `users` – demographics and interests  
 - **Table Relationships:** Star schema with `ad_events` as fact table and `ads`, `campaigns`, `users` as dimension tables  
 
-> See [`Domain Knowledge.pdf`](Domain Knowledge.pdf) for full details.
+> [View Domain Knowledge Document](Domain%20Knowledge.pdf)
 
 ---
 
-## 📊 Dashboard Insights
+## 📊 Dashboard Insights (from Meta PoweBl Project.pdf)
 
 **KPI Metrics**
 
@@ -41,9 +44,9 @@ The Domain Knowledge Document contains detailed explanations of the dataset, inc
 - **Clicks:** 25.4K – Number of people who clicked  
 - **Engagements:** 29K – Total interactions (likes, shares, comments)  
 - **CTR:** 11.76% – Click-through rate, strong performance  
-- **Engagement Rate:** 13.56% – Indicates content resonates with the audience  
+- **Engagement Rate:** 13.56% – Content resonates with audience  
 - **Conversion Rate:** 5.21% – Percentage of clicks leading to purchase  
-- **Purchase Rate:** 0.61% – Low funnel efficiency, room for optimization  
+- **Purchase Rate:** 0.61% – Low funnel efficiency  
 - **Total Budget:** 2.5M, **Avg Budget per Campaign:** 50.7K  
 
 **Audience Insights**
@@ -55,7 +58,7 @@ The Domain Knowledge Document contains detailed explanations of the dataset, inc
 **Timing & Trends**
 
 - **Hourly Engagement:** Peaks in afternoon & evening  
-- **Weekly Engagement:** Consistent, with spikes during promotions/events  
+- **Weekly Engagement:** Consistent, spikes during promotions/events  
 
 **Ad Type Analysis**
 
@@ -82,8 +85,7 @@ The Domain Knowledge Document contains detailed explanations of the dataset, inc
 
 ## 🔗 Links & References
 
-- [Domain Knowledge Document](Domain Knowledge.pdf)  
+- [Domain Knowledge Document](Domain%20Knowledge.pdf)  
+- [Meta Dashboard PDF](Meta%20PoweBl%20Project.pdf)    
 - [LinkedIn](https://www.linkedin.com/in/ferry-ferry-bb343116a)  
 - [Website]()  
-
-
